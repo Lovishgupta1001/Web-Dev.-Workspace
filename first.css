@@ -1,37 +1,137 @@
 *{
-   margin: 0px;
-   padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
-body{
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   margin: 20px;
-   padding: 20px;
-   background-color: white;
-   border: 2px solid green;
-   text-decoration: dotted;
-   color: red;
-   font-weight: 100;
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
 }
-a:link {
+.wrapper {
+  width: 100%;
+  /*
+  */
+  background-image: url(./images/bg\ \(5\).jpg);
+  background-repeat: cover;
+  background-attachment: fixed;
+  background-color: white;
   color: black;
-  background-color: transparent;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.navbar{
+  color: black;
+  
+}
+.flexuse {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar img {
+  width: 100px;
+  height: fit-content;
+  padding: 20px;
+  transition: 0s;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.grid-block{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 40px;
+}
+.welcome {
+  font-size: 25px;
+}
+.grid-block li {
+  padding: 20px;
+  display: inline-block;
+  border: 20px;
+  margin-top: 20px;
+}
+.grid-block li:hover{
+  border: 2px solid white;
+}
+.grid-block:hover{
+  backface-visibility: 30%;
+  transition: 100ms;
+}
+.home ul {
+  list-style: none;
+  text-align: center;
+}
+.home .hello{
+  
+  padding: 10px;
+  line-height: 3;
+}
+.home ul li{
+  display: inline-block;
+}
+#myname{
+  font-weight: 800;
+  font-size: 20px;
+  padding: 10px;
+  word-spacing: 5px;
+  text-transform: capitalize;
+}
+#mylevel{
+  font-size: 18px;
+}
+ul.myskills.flexuse{
+  justify-content: center;
+}
+.skills li {
+  border: 2px solid none;
+  background-color: pink;
+  color: blue;
+  padding: 10px;
+  line-height: 2;
+  font-weight: 600;
+  color: white;
+  background-color: black;
+}
+.skills li:hover{
+  border: 2px solid white;
+  color: black;
+  background-color: white;
+}
+#familier {
+  padding-right: 20px;
+}
+.hey li{
+  padding: 0.3rem 0.5rem;
+}
+.iconcontact{
+  padding: 0.3rem 0.5rem;
+  margin-top: 20px;
+  display: inline-block;
+}
+.iconcontact a {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: violet;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
   text-decoration: none;
 }
-
-a:visited {
-  color: skyblue;
-  background-color: transparent;
-  text-decoration: none;
+.iconcontact img{
+  height: 1.2rem;
+  width: auto;
+  margin: 0px;
+  padding: 0px;
 }
-
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
+.contactme ul li{
+  display: inline-block;
 }
-
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
+.iconcontact img:hover{
+  border-color:white;
 }
