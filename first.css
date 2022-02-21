@@ -112,26 +112,28 @@ ul.myskills.flexuse{
 .iconcontact{
   padding: 0.3rem 0.5rem;
   margin-top: 20px;
-  display: inline-block;
-}
-.iconcontact a {
-  border-radius: 0.5rem;
-  padding: 0.5rem 1rem;
-  background-color: violet;
-  margin: 0.5rem;
-  font-size: 1rem;
-  font-weight: 700;
-  text-decoration: none;
+  justify-content: center;
 }
 .iconcontact img{
   height: 1.2rem;
   width: auto;
   margin: 0px;
   padding: 0px;
+  padding-right: 5px;
 }
 .contactme ul li{
   display: inline-block;
+  list-style: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: violet;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
 }
-.iconcontact img:hover{
+.contactme ul li a{
+  text-decoration: none;
+}
+.iconcontact:hover{
   border-color:white;
 }
